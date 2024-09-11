@@ -1,0 +1,59 @@
+/* Style for the form container */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  /* Style for form fields */
+  mat-form-field {
+    width: 100%;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #3f51b5;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #303f9f;
+  }
+  
+  /* Style for the list of items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style for error messages */
+  mat-error {
+    color: red;
+    font-size: 12px;
+  }
+  
